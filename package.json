@@ -1,0 +1,64 @@
+{
+  "name": "@jodd/next-top-loading-bar",
+  "version": "1.0.0",
+  "description": "Top loading for Nextjs App Router",
+  "author": {
+    "name": "bibekjodd",
+    "email": "bibekjodd@gmail.com",
+    "url": "https://github.com/bibekjodd"
+  },
+  "homepage": "https://next-top-loader.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bibekjodd/next-top-loading-bar"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "build:pkg": "tsup",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write .",
+    "prepublishOnly": "npm run build:pkg"
+  },
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "files": [
+    "dist/*"
+  ],
+  "dependencies": {
+    "react-top-loading-bar": "^2.3.1",
+    "zustand": "^5.0.0"
+  },
+  "peerDependencies": {
+    "react": "^18 || ^19",
+    "react-dom": "^18 || ^19",
+    "next": "^13 || ^14 || ^15"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.1",
+    "eslint-plugin-unicorn": "^56.0.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "tsup": "^8.3.4",
+    "typescript": "^5"
+  },
+  "keywords": [
+    "loading-bar",
+    "route-loading-bar",
+    "next-app-dir"
+  ]
+}
