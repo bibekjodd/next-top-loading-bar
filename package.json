@@ -1,13 +1,13 @@
 {
   "name": "@jodd/next-top-loading-bar",
   "version": "1.0.0",
-  "description": "Top loading for Nextjs App Router",
+  "description": "Top loading bar for Nextjs App Router",
   "author": {
     "name": "bibekjodd",
     "email": "bibekjodd@gmail.com",
     "url": "https://github.com/bibekjodd"
   },
-  "homepage": "https://next-top-loader.vercel.app",
+  "homepage": "https://next-top-loading-bar.vercel.app",
   "repository": {
     "type": "git",
     "url": "https://github.com/bibekjodd/next-top-loading-bar"
