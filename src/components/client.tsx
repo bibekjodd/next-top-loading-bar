@@ -7,6 +7,7 @@ export default function Client() {
   const [country, setCountry] = useState("USA");
 
   const nextRoute = useMemo(() => {
+    if (typeof window === "undefined") return "/";
     const url = new URL(location.href);
     url.search = "";
     if (search !== "") url.searchParams.set("search", search);
