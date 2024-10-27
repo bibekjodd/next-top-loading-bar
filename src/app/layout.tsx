@@ -1,6 +1,6 @@
 import Client from "@/components/client";
 import Links from "@/components/links";
-import { LoadingBar } from "@/lib/loading-bar";
+import { LoadingBar } from "@/lib";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";

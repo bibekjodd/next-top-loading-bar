@@ -1,5 +1,5 @@
-"use client";
 import { createStore } from "@jodd/snap";
+
 interface Store {
   isTransitioning: boolean;
   isInitial: boolean;
