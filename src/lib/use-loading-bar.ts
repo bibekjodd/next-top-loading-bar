@@ -1,5 +1,5 @@
 "use client";
-import { create } from "zustand";
+import { createStore } from "@jodd/snap";
 interface Store {
   isTransitioning: boolean;
   isInitial: boolean;
@@ -11,7 +11,7 @@ interface Store {
   finish: () => void;
 }
 
-export const useLoadingBar = create<Store>((set) => ({
+export const useLoadingBar = createStore<Store>((set) => ({
   isTransitioning: false,
   progress: 0,
   isInitial: true,

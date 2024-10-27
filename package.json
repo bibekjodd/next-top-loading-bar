@@ -1,6 +1,6 @@
 {
   "name": "@jodd/next-top-loading-bar",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Top loading bar for Nextjs App Router",
   "author": {
     "name": "bibekjodd",
@@ -36,8 +36,8 @@
     "dist/*"
   ],
   "dependencies": {
-    "react-top-loading-bar": "^2.3.1",
-    "zustand": "^5.0.0"
+    "@jodd/snap": "^1.0.6",
+    "react-top-loading-bar": "^2.3.1"
   },
   "peerDependencies": {
     "react": "^18 || ^19",
@@ -59,6 +59,6 @@
   "keywords": [
     "loading-bar",
     "route-loading-bar",
-    "next-app-dir"
+    "next-app-router"
   ]
 }

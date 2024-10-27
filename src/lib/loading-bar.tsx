@@ -8,7 +8,7 @@ export type LoadingBarProps = IProps & {
   /**
    * Max waiting time for route transition to complete in ms
    *
-   * default to `0`
+   * defaults to `0`
    */
   maxTransitionDuration?: number;
 };

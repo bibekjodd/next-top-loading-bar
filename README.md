@@ -4,6 +4,8 @@ Top loading bar for Nextjs App Router
 
 Try live demo [here](https://next-top-loading-bar.vercel.app)
 
+Npm package link [here](https://www.npmjs.com/package/@jodd/next-top-loading-bar)
+
 ## Install
 
 ```bash
@@ -95,4 +97,4 @@ export default function Component() {
 ## Credits
 
 - This package uses [react-top-loading-bar](https://github.com/klendi/react-top-loading-bar) under the hood
-- This package uses [zustand](https://github.com/pmndrs/zustand) for state management
+- This package uses [snap](https://github.com/bibekjodd/snap) for state management
