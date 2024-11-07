@@ -1,0 +1,60 @@
+{
+  "name": "@jodd/next-top-loading-bar",
+  "version": "1.0.5",
+  "description": "Top loading bar for Nextjs App Router",
+  "keywords": [
+    "loading-bar",
+    "route-loading-bar",
+    "next-app-router"
+  ],
+  "homepage": "https://next-top-loading-bar.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bibekjodd/next-top-loading-bar"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "bibekjodd",
+    "email": "bibekjodd@gmail.com",
+    "url": "https://github.com/bibekjodd"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "tsup",
+    "lint": "eslint src && tsc --noEmit"
+  },
+  "dependencies": {
+    "@jodd/snap": "^1.0.7",
+    "react-top-loading-bar": "^2.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "@types/react": "^18",
+    "@types/react-dom": "~18.3.1",
+    "eslint": "^8",
+    "eslint-plugin-react": "^7.37.2",
+    "globals": "^15.12.0",
+    "tsup": "^8.3.4",
+    "typescript": "^5",
+    "typescript-eslint": "^8.13.0"
+  },
+  "peerDependencies": {
+    "next": ">=13",
+    "react": ">=18",
+    "react-dom": ">=18"
+  }
+}

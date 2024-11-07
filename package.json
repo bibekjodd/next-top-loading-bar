@@ -15,5 +15,8 @@
   "packageManager": "pnpm@8.15.6",
   "engines": {
     "node": ">=18"
+  },
+  "dependencies": {
+    "prettier-plugin-tailwindcss": "^0.6.8"
   }
 }
